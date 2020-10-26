@@ -22,7 +22,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * PetClinic Spring Boot Application.
  * 
- * @author Dave Syer
+ * @author Dave Syer added
  *
  */
 @SpringBootApplication
@@ -30,6 +30,7 @@ public class PetClinicApplication {
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(PetClinicApplication.class, args);
+        //add
     }
 
 }
